@@ -1,0 +1,22 @@
+/* Start: Common Styles */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* font-family: 'Baloo Da 2', cursive;
+font-family: 'Oswald', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* End: Common Styles */
