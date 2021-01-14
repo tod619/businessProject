@@ -108,15 +108,27 @@ html {
     width: 100%;
     height: 0.2rem;
     background-color: #eee;
+    transition: transform 0.4s;
 }
 
 .line-1 {
-    width: 50%;
+    width: 50%;    
+}
+
+.change .line-1 {
+    transform: translate(100%, 1rem) rotate(-35deg);
+    transform-origin: right;
 }
 
 .line-3 {
     width: 50%;
     margin-left: auto;
+    
+}
+
+.change .line-3 {
+    transform: translateY(-1rem) rotate(35deg);
+    transform-origin: right;
 }
 /* End: Menu Icon */
 
