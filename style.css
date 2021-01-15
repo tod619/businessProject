@@ -480,6 +480,44 @@ html {
     background: linear-gradient(to right, #0b7e48, #3be286);
     border-radius: 1rem 1rem 0 0;
 }
+
+.pricing-card-price {
+    font-family: sans-serif;
+    font-size: 7rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.pricing-card-list li {
+    margin-bottom: 0.5rem;
+}
+
+.list-free li {
+    color: #0da5d3;
+}
+
+.list-basic li {
+    color: #bdba0e;
+}
+
+.list-standard li {
+    color: #e23b3b;
+}
+
+.list-premium li {
+    color: #3be286;
+}
+
+.pricing-card-list i {
+    font-size: 1.8rem;
+    width: 3rem;
+}
+
+.pricing-card-list span {
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
 /* End: Section-3 Pricing */
 
 
