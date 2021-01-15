@@ -337,6 +337,7 @@ html {
     height: 100%;
     object-fit: cover;
     opacity: 0.3;
+    transition: opacity 0.3s;
 }
 
 .controls {
@@ -414,6 +415,8 @@ html {
     font-size: 5rem;
 }
 /* End: Section-2 About Us */
+
+
 
 /* Start: Media queries */
 @media(max-width: 1800px) {
