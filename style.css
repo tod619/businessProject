@@ -18,6 +18,22 @@ html {
     font-size: 62.5%;
 }
 
+.section-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10rem;
+    font-weight: 300;
+    color: #ddd;
+}
+
+.section-heading-line {
+    width: 15rem;
+    height: 0.2rem;
+    background-color: #ddd;
+    margin-right: 4rem;
+    box-shadow: 3rem 3rem 3rem rgba(0,0,0,0.7);
+
+}
+
 /* End: Common Styles */
 
 /* Start: Navbar */
@@ -305,22 +321,6 @@ html {
     align-items: center;
     padding: 0 10rem;
     position: relative;
-}
-
-.section-heading {
-    font-family: 'Oswald', sans-serif;
-    font-size: 10rem;
-    font-weight: 300;
-    color: #ddd;
-}
-
-.section-heading-line {
-    width: 15rem;
-    height: 0.2rem;
-    background-color: #ddd;
-    margin-right: 4rem;
-    box-shadow: 3rem 3rem 3rem rgba(0,0,0,0.7);
-
 }
 
 .video-wrapper {
