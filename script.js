@@ -31,4 +31,16 @@ const playPause = () => {
 btn.addEventListener('click', () => {
     playPause()
 })
+
+video.addEventListener('timeupdate', () => {
+    // console.log(video.currentTime, video.duration)
+    const barWidth = video.currentTime / video.duration
+    bar.style.width = `${barWidth * 100}%`
+    if(video.ended) {
+        btn.className = 'fas fa-play-circle'
+        video.style.opacity = '0.3'
+        bar.style.width = '0'
+    }
+    
+})
 // End video player
