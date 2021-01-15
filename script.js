@@ -7,3 +7,6 @@ menu.addEventListener('click', () => {
     menu.classList.toggle('change')
 })
 // End Navbar
+
+// Start video player
+// End video player

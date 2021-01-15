@@ -329,6 +329,7 @@ html {
     position: absolute;
     top: 5rem;
     right: 15rem;
+    overflow: hidden;
 }
 
 .video {
@@ -343,6 +344,14 @@ html {
     position: absolute;
     bottom: 0;
     background-color: rgba(0,0,0,0.7);
+    transform: translateY(calc(100% - 0.4rem));
+    
+    transition: transform 0.4s;
+}
+
+.video-wrapper:hover .controls {
+    transform: translateY(0);
+
 }
 
 .video-bar-wrapper {
@@ -405,3 +414,36 @@ html {
     font-size: 5rem;
 }
 /* End: Section-2 About Us */
+
+/* Start: Media queries */
+@media(max-width: 1800px) {
+    .video-wrapper {
+        width: 90rem;
+        height: 45rem;
+        right: 10rem;
+    }
+
+    .section-2-paragraph {
+        width: 90rem;
+        right: 10rem;
+    }
+}
+
+@media(max-width: 1650px) {
+    html {
+        font-size: 57%;
+    }
+
+    .video-wrapper {
+        width: 85rem;
+        height: 40rem;
+        right: 5rem;
+    }
+
+    .section-2-paragraph {
+        width: 85rem;
+        right: 5rem;
+        bottom: 10rem;
+    }
+}
+/* End: Media queries */
