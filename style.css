@@ -847,7 +847,7 @@ html {
         margin: 3rem 2rem;
     }
 
-    .fooer {
+    .footer {
         flex-direction: column;
         justify-content: center;
     }
