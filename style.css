@@ -801,5 +801,37 @@ html {
     .swiper-container {
         width: 100%;
     }
+
+    .section-4 {
+        height: auto;
+        padding: 5rem 0;
+    }
 }
+
+@media(max-width: 900px) {
+    html {
+        font-size: 40%;
+    }
+
+    .banner {
+        top: 25%;
+    }
+
+    .banner-heading {
+        height: 15rem;
+    }
+
+    .banner-heading span {
+        font-size: 8rem;
+    }
+
+    .footer {
+        padding: 0 5rem;
+    }
+
+    .footer-nav a {
+        font-size: 1.8rem;
+    }
+}
+
 /* End: Media queries */
