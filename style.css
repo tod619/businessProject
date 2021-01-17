@@ -834,4 +834,27 @@ html {
     }
 }
 
+@media(max-width: 700px) {
+    html {
+        font-size: 35%;
+    }
+
+    .section-2 {
+        height: 100vh;
+    }
+
+    .contact-details div {
+        margin: 3rem 2rem;
+    }
+
+    .fooer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-nav {
+        margin-bottom: 2rem;
+    }
+}
+
 /* End: Media queries */
