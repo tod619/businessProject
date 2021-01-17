@@ -721,6 +721,10 @@ html {
         width: 90rem;
         right: 10rem;
     }
+
+    .section-3 .section-heading-line {
+        margin-right: 3rem;
+    }
 }
 
 @media(max-width: 1650px) {
@@ -738,6 +742,13 @@ html {
         width: 85rem;
         right: 5rem;
         bottom: 10rem;
+    }
+
+}
+
+@media(max-width: 1500px) {
+    .section-heading-line {
+        display: none;
     }
 }
 /* End: Media queries */
